@@ -1,0 +1,16 @@
+[package]
+
+name = "nglsystem"
+version = "0.0.1"
+authors = ["adjivas <adjivas@users.noreply.github.com>"]
+description = "natural language generation"
+license = "GNUv3"
+repository = "https://github.com/adjivas/nlg-system"
+
+[lib]
+name = "nlglib"
+path = "src/lib.rs"
+
+[[bin]]
+name = "main"
+path = "src/bin.rs"
